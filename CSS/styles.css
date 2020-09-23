@@ -1,0 +1,139 @@
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+h1{
+  font-size: 5.625rem;
+  margin-top:50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color:#66BFBF;
+
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color:#66BFBF;
+  font-weight: bolder;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+.top-container{
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 50px;
+  line-height: 3px;
+}
+
+
+.bottom-cloud{
+  position: absolute;
+  left: 100px;
+  top: 250px;
+}
+.top-cloud{
+  position: absolute;
+  right: 200px;
+  top: 100px;
+}
+.mountain{
+  height: 160%;
+}
+.web{
+  text-decoration: underline;
+
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.intro{
+  font-weight: normal;
+  font-size: 1px;
+}
+.profilepic{
+ border-radius: 100%;
+}
+.web-developmentpic{
+  float: left;
+  margin-right: 30px;
+  width:25%;
+}
+.cricket-bat{
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+.skill-row{
+  width: 50%;
+  margin:100px auto 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.profile{
+  padding: 100px;
+  text-align: center;
+
+}
+.intro{
+  font-size: 25px;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey ;
+  border-width: 5px;
+  height: 30px;
+  width: 5%;
+
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 15px;
+  line-height: 2;
+  word-spacing: 20px;
+}
+.last{
+  color: #EAF6F6;
+  word-spacing: normal;
+  font-size: 0.75rem;
+}
+
+
+.btn {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #99f3bd 100%);
+	background-color:#408c99;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.btn{
+  margin:20px;
+}
+.hello-disc{
+  width: 50%;
+  margin:auto;
+}
